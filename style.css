@@ -1,0 +1,24 @@
+/* .button1{
+  color: red;
+}
+.button2{
+  color: blue;
+}
+div{
+  text-align: center;
+  text-transform: capitalize;
+} */
+
+
+
+
+
+.btn1{
+  color: blue;
+  font-weight: bold;
+  
+}
+.btn2{
+  color:black;
+  font-weight: bold;
+}

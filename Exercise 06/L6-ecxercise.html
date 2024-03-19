@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>L6 exercise Question</title>
+</head>
+<body>
+<button onclick="cartQuantity; console.log(`The cart-Quantity is: ${cartQuantity}`)">Show the cart CartQuantity</button>
+  
+<button onclick="
+if (cartQuantity +1>10){
+  alert('The cart is full')
+}
+else if(cartQuantity+1<0){
+  alert('The is cart Empty')
+}
+else
+{
+  cartQuantity++;
+  console.log(`The cart-Quantity is:${cartQuantity}`)
+}
+">+1</button>
+
+
+<button onclick="
+if(cartQuantity+2>10){
+  alert('The cart is full')
+}
+else if(cartQuantity+2<0){
+  alert('The is cart Empty')
+}
+
+else{
+  cartQuantity+=2
+console.log(`The cart Quantity is: ${cartQuantity}`)
+}
+
+
+">+2</button>
+
+
+
+<button onclick="
+if(cartQuantity-1>10){
+  alert('The cart is full')
+}
+else if(cartQuantity-1<0){
+  alert('The is cart Empty')
+}
+
+else{
+  cartQuantity--;
+console.log(`The cart Quantity is: ${cartQuantity}`)
+}
+
+
+">-1</button>
+
+
+<button onclick="
+if(cartQuantity-2>10){
+  alert('The cart is full')
+}
+else if(cartQuantity-2<0){
+  alert('The is cart Empty')
+}
+else{
+  cartQuantity-=2;
+console.log(`The cart Quantity is: ${cartQuantity}`)
+}
+
+
+">-2</button>
+
+</body>
+<script>
+ let cartQuantity=0;
+
+
+
+//   let hour=4;
+//   let name='Sohaib khan'
+//   if (hour>=6 && hour<=12){
+//     // console.log("Good morning")
+//     alert(`Good morning : ${name}`)
+//   }
+//   else if(hour>=13 && hour<=17){
+//     // console.log("Good evening")
+//     alert(`Good evening : ${name}`)
+//   }
+//   else if(hour>=18 && hour<=24) {
+//     // console.log("Good after noon")
+//     alert(`Good after noon : ${name}`)
+//   }
+//   else{
+// alert("Put  a valid Number")
+//   }
+  // console.log(`Good after noon : ${name}`)
+
+
+
+
+
+
+  // Q2
+
+
+// let age=50;
+//  let isHoliday=true
+// if (age <=6 || age>=64 && isHoliday){
+//   alert("You have special discount")
+// }
+// else{
+// alert("You have no discount")
+// }
+
+
+// Q3
+// let randomNumber=Math.random();
+// result='';
+// let guss='head'
+// // alert(randomNumber)
+// if (randomNumber>= 0.5 ){
+// result='Head' 
+// }
+// else{
+//   result='Tail'
+// }
+
+// alert(`Result is: ${result}`)
+
+
+
+// Q4
+
+
+
+</script>
+</html>

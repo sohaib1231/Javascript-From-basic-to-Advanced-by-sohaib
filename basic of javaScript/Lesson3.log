@@ -1,0 +1,41 @@
+' my name is sohaib khan';
+' my name is sohaib khan'
+'My name is '  '+ sohaib khan'
+VM169:1 Uncaught SyntaxError: Unexpected string
+' My name is '+'sohaib khan';
+' My name is sohaib khan'
+5+3;
+8
+'Total cost':$ 8;
+VM278:1 Uncaught SyntaxError: Unexpected token ':'
+'Total cost:$' + (5+3);
+'Total cost:$8'
+'Total cost: $' + (5 + 3)
+'Total cost: $8'
+`Total cost: $${5+3}`;
+'Total cost: $8'
+alert(`Total cost: $${5+3}`);
+undefined
+(2.95+ 5.99)
+8.940000000000001
+(295 + 599) /100;
+8.94
+'Total cost: $' + (295 + 599)/100;
+'Total cost: $8.94'
+`Total cost: $${8.94}`;
+'Total cost: $8.94'
+alert(`Total cost: $${8.94}`)/n 'Thank you so much come again;
+VM696:1 Uncaught SyntaxError: Invalid or unexpected token
+alert(`Total cost: $${8.94}`)/n 'Thank you so much come again;
+VM753:1 Uncaught SyntaxError: Invalid or unexpected token
+alert(`Total cost: $${8.94}`/n'Thankyou so much');
+VM800:1 Uncaught SyntaxError: missing ) after argument list
+alert(`Total cost: $${8.94}`);
+undefined
+alert(`Total cost: $${8.94}
+Thankyou so much');
+
+VM868:3 Uncaught SyntaxError: Unexpected end of input
+alert(`Total cost: $${8.94} 
+Thank you so much come again`);
+undefined

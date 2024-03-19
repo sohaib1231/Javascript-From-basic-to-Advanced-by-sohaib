@@ -1,0 +1,25 @@
+.D1{
+text-align: center;
+margin-top: 10%;
+}
+.bt1{
+  color: black;
+  background-color: aqua;
+  border-radius: 13px;
+  padding: 5px;
+  margin: 5px;
+}
+.bt2{
+  color: black;
+  background-color: blue;
+  border-radius: 13px;
+  padding: 5px;
+  margin: 5px;
+}
+.bt3{
+  color: black;
+  background-color:yellowgreen;
+  border-radius: 13px;
+  padding: 5px;
+  margin: 5px;
+}

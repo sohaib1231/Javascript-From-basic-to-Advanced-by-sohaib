@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Object</title>
+</head>
+<body>
+  
+</body>
+<script>
+//   The Object is two method to get value from it one is called dot method and  
+//   second one is called Squre braket method from both method we can  take the same work.
+
+//  (1) This is dot method
+//   const product={
+//     Name:'ball',
+//     price:160,
+//     Quality:'good',
+//     Country:'Pakistan',
+//   };
+//   console.log(typeof (product))
+// console.log(product.Name)
+// product.Name='bat'
+// console.log(product.Name)
+// delete product.Quality;
+// console.log(product)
+
+
+// (2) This is second method 
+
+// const product2={
+//  ['name']:'Machine',
+//  ['Delivery-time']:'one Week',
+//  ['charges']:'10% tax',
+// };
+
+// console.log(product2)
+// product2 ['Location']='peshawer';
+// console.log(product2)
+
+
+// NESTED   OBJECTS
+
+// The objects or function inside an object is called a nested object in js.
+
+
+
+
+let student={
+  name:'sohaib khan',
+  city:{
+    district:'karak',
+    tehsil:'Banda daud shah',
+    village:'teri',
+  },
+  fun: function education(){
+    console.log("Now he is studing at uop.")
+  },
+
+};
+console.log(student)
+console.log(student.city)
+student.fun()
+
+
+
+
+
+</script>
+</html>

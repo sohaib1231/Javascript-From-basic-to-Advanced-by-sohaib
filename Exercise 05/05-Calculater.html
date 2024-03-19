@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="calculater.css">
+  <title>Calculater</title>
+</head>
+<body>
+  
+  <div class="container-wrapper">
+  <div class="container">
+    <h1>Simple Calculater</h1>
+    <span class="result">0</span>
+  <p>
+  <button onclick="showResult('1');  console.log(calculation)">1</button>
+
+<button onclick=" showResult('2');  console.log(calculation)">2</button>
+<button onclick=" showResult('3');   console.log(calculation)">3</button>
+<button onclick=" showResult('+');     console.log(calculation)">+</button>
+
+</p>
+
+<p>
+  <button onclick=" showResult('4');   console.log(calculation)">4</button>
+  <button onclick=" showResult('5');   console.log(calculation)">5</button>
+  <button onclick=" showResult('6');    console.log(calculation)">6</button>
+  <button onclick=" showResult('-');    console.log(calculation)">-</button>
+
+</p>
+<p>
+  <button onclick="showResult('7');    console.log(calculation)">7</button>
+  <button onclick=" showResult('8');   console.log(calculation)">8</button>
+  <button onclick=" showResult('9');   console.log(calculation)">9</button>
+  <button onclick=" showResult('*');   console.log(calculation)">*</button>
+</p>
+
+<p>
+  <button onclick="showCalculation();  console.log(calculation)">=</button>
+  
+  <button onclick=" showResult('0');   console.log(calculation)">0</button>
+  <button onclick=" showResult('.');  console.log(calculation)">.</button>
+  <button onclick=" showResult('00');  console.log(calculation)">00</button>
+ 
+  
+  
+</p>
+
+<p>
+  <button onclick=" clearResult(); console.log(`Every thing is  clear:  ${calculation} `)">clc</button>
+  <button onclick="showResult('/');  console.log(calculation)">/</button>
+  
+
+  
+
+</p>
+</div>
+</div>
+</body>
+<script>
+let calculation='';
+function showResult(value){
+  calculation+=value
+  document.querySelector(".result").innerText=calculation
+}
+
+function clearResult(){
+  calculation='';
+  document.querySelector(".result").innerText='0';
+}
+function showCalculation(){
+  calculation=eval(calculation);
+  document.querySelector(".result").innerText=calculation;
+}
+
+</script>
+</html>

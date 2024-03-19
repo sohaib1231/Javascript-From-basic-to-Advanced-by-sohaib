@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Copy By Refrence</title>
+</head>
+<body>
+  
+</body>
+<script>
+  //Object By refrence
+  // const object1={
+  //   Name:'Sohaib khan',
+  //   University:'Uop'
+  // }
+  // let object2=object1
+  // object1.Name='My village name is Teri'
+  // console.log(object1)
+  // console.log(object2)
+
+//Obects Cannot compare directly
+  const object={
+    messege:'Never Give up'
+  }
+  let object2=object
+  object.messege='Keep trying'
+  console.log(object)
+  console.log(object2)
+  let object3={
+    messege:'Never Give up'
+  } 
+  console.log(object===object3)
+  //It give us false value because object is compare by refrence not value
+  console.log(object2===object)
+  //It give us True value because object is compare by refrence not value
+
+</script>
+</html>

@@ -1,0 +1,18 @@
+Unchecked runtime.lastError: The message port closed before a response was received.
+Unchecked runtime.lastError: The message port closed before a response was received.
+Unchecked runtime.lastError: The message port closed before a response was received.
+Unchecked runtime.lastError: The message port closed before a response was received.
+Unchecked runtime.lastError: The message port closed before a response was received.
+Unchecked runtime.lastError: The message port closed before a response was received.
+'Items('+  (2+2) +'):$' + (2*799 + 2*2095)/100;
+'Items(4):$57.88'
+'Shipping $ handling:      $'    + (4.99+ 4.99);
+'Shipping $ handling:      $9.98'
+'Total before tax:    $' +(9.98+ 57.88);
+'Total before tax:    $67.86'
+'Estimated tax(' +(10%) +'):   $'(57.88)*0.1;
+VM544:1 Uncaught SyntaxError: Unexpected token ')'
+Estimated tax (10%): $${Math.round((2 * 2095 + 2 * 799 + 499 + 499) * 0.1) / 100}`;
+VM550:1 Uncaught SyntaxError: Unexpected identifier 'tax'
+`Estimated tax (10%): $${Math.round((2 * 2095 + 2 * 799 + 499 + 499) * 0.1) / 100}`;
+'Estimated tax (10%): $6.79'

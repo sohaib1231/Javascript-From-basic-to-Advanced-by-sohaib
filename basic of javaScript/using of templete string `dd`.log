@@ -1,0 +1,6 @@
+`hello`
+'hello'
+alert(`hello\n gues`);
+undefined
+`items(${1+1}): $${(2095+799)/100}`
+'items(2): $28.94'

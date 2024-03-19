@@ -1,0 +1,30 @@
+Unchecked runtime.lastError: The message port closed before a response was received.
+Unchecked runtime.lastError: The message port closed before a response was received.
+Unchecked runtime.lastError: The message port closed before a response was received.
+Unchecked runtime.lastError: The message port closed before a response was received.
+Unchecked runtime.lastError: The message port closed before a response was received.
+Unchecked runtime.lastError: The message port closed before a response was received.
+checkout:1 Unchecked runtime.lastError: The message port closed before a response was received.
+checkout:1 Unchecked runtime.lastError: The message port closed before a response was received.
+checkout:1 Unchecked runtime.lastError: The message port closed before a response was received.
+checkout:1 Unchecked runtime.lastError: The message port closed before a response was received.
+checkout:1 Unchecked runtime.lastError: The message port closed before a response was received.
+checkout:1 Unchecked runtime.lastError: The message port closed before a response was received.
+'$' + 7.99+20.95;
+'$7.9920.95'
+'$' +(7.99 +20.95);
+'$28.939999999999998'
+'$' + (2095 +799) /100;
+'$28.94'
+'$' + (2095 +799) /100;
+'$28.94'
+'items(' + (1 +1) + '):                $'  + (2095 +799) /100;
+'items(2):                $28.94'
+'Shipping & handling:'  +  '      $0.00';
+'Shipping & handling:      $0.00'
+alert( items('+ ' (1+1) +'):         $' + (2095 +799) /100);
+VM634:1 Uncaught SyntaxError: missing ) after argument list
+ alert('items('+   '(1+1) + ' ):   $' + (2095 +799) /100);
+VM746:1 Uncaught SyntaxError: Unexpected token ':'
+alert('items('+  (1+1) +'):    $' + (2095 +799) /100);
+undefined
